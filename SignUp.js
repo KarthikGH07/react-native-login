@@ -61,10 +61,6 @@ const SignUp = () => {
     run();
   };
 
-  const goToLogin = () => {
-    Actions.login();
-  };
-
   const styles = StyleSheet.create({
     input: {
       height: 35,
